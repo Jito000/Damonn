@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "447611313649",
+    "firebase_url": "https://damonn-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "damonn",
+    "storage_bucket": "damonn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447611313649:android:5b48ef85f59de9de0a3850",
+        "android_client_info": {
+          "package_name": "com.example.damonn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447611313649-4hr15svg5i0f0j66eladhjam59fevmlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCghQ7LR1Plvq9FEwWslTgf38yEO1cpfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447611313649-4hr15svg5i0f0j66eladhjam59fevmlc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "447611313649-d9e0vufquro0vj40k4rtg858uv2j0nj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.damonn"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
