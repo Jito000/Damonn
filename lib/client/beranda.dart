@@ -88,12 +88,12 @@ class _OverviewPageState extends State<OverviewPage> {
                     return snapshotKategori.data.value == 'Potong Kain' ?
                       FloatingActionButton(
                         elevation: 3,
-                        child: const Icon(Icons.add_outlined),
                         backgroundColor: Color(customColorGreen()),
                         onPressed:  () {
 
                           changeMode('edit'); //pindah halaman input
                         },
+                        child: const Icon(Icons.add_outlined),
                       )
                         : Container();
                   }
@@ -135,9 +135,6 @@ class _OverviewPageState extends State<OverviewPage> {
                      heroTag: 'submitButton',
                       elevation: 3,
                       backgroundColor: Color(customColorGreen()),
-                      child: const Icon(
-                        Icons.check,
-                      ),
                       onPressed:(_isButtonEnable==false) ? (){} : () async {
                         // if the controller text value is ''(empty) replace to 0
                         if (  _formKey.currentState!.validate()) {
@@ -187,6 +184,9 @@ class _OverviewPageState extends State<OverviewPage> {
                           }
                         }
                       },
+                      child: const Icon(
+                        Icons.check,
+                      ),
                     )
 
                 ],
